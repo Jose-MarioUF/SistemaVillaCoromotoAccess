@@ -20,5 +20,9 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
+        public ActionResult DatosHabitacion()
+        {
+            return View();
+        }
     }
 }
