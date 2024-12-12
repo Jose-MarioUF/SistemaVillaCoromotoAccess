@@ -120,9 +120,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ActivosController.cs" />
     <Compile Include="Controllers\HabitacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ReservaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -302,6 +304,8 @@
     <Content Include="Views\Habitacion\AdministrarHabitaciones.cshtml" />
     <Content Include="Views\Habitacion\ModificarHabitacion.cshtml" />
     <Content Include="Views\Habitacion\DatosHabitacion.cshtml" />
+    <Content Include="Views\Reserva\AdministrarReservas.cshtml" />
+    <Content Include="Views\Activos\AdministrarActivos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

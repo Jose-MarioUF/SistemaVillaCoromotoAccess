@@ -1,0 +1,257 @@
+﻿@{
+    ViewBag.Title = "AdministrarActivos";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Administrar Activos</h2>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="buscarCategoria" placeholder="Filtrar por categoría">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" onclick="filtrarCategoria()">Filtrar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="buscarHabitacion" placeholder="Filtrar por habitación">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" onclick="filtrarHabitacion()">Filtrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+        <h3>Villa Coromoto</h3>
+        <button class="btn btn-outline-dark" onclick="agregarActivo()">Agregar Activo</button>
+    </div>
+    <br />
+<div class="mb-4">
+    <h3>Habitación 1</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 1</td>
+                <td>Modelo A</td>
+                <td>123456</td>
+                <td>Descripción del activo 1</td>
+                <td>Categoría 1</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(1)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(1)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+
+<div class="mb-4">
+    <h3> Habitación 2</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 2</td>
+                <td>Modelo B</td>
+                <td>654321</td>
+                <td>Descripción del activo 2</td>
+                <td>Categoría 2</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(2)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(2)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+
+<div class="mb-4">
+    <h3>Habitación 3</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 3</td>
+                <td>Modelo C</td>
+                <td>789012</td>
+                <td>Descripción del activo 3</td>
+                <td>Categoría 3</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(3)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(3)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h3>Villa Vallita</h3>
+<br />
+
+<div class="mb-4">
+    <h3>Habitación 1</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 1</td>
+                <td>Modelo A</td>
+                <td>123456</td>
+                <td>Descripción del activo 1</td>
+                <td>Categoría 1</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(1)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(1)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+
+<div class="mb-4">
+    <h3> Habitación 2</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 2</td>
+                <td>Modelo B</td>
+                <td>654321</td>
+                <td>Descripción del activo 2</td>
+                <td>Categoría 2</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(2)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(2)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br />
+
+<div class="mb-4">
+    <h3>Habitación 3</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Activo</th>
+                <th>Modelo</th>
+                <th>Número de Serie</th>
+                <th>Descripción</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activo 3</td>
+                <td>Modelo C</td>
+                <td>789012</td>
+                <td>Descripción del activo 3</td>
+                <td>Categoría 3</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" onclick="modificarActivo(3)">Modificar</button>
+                    <button class="btn btn-danger btn-sm" onclick="eliminarActivo(3)">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<!-- Modal para agregar/modificar activo -->
+<div class="modal fade" id="activoModal" tabindex="-1" role="dialog" aria-labelledby="activoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="activoModalLabel">Agregar/Modificar Activo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="activoForm">
+                    <div class="form-group">
+                        <label for="activoNombre">Nombre del Activo:</label>
+                        <input type="text" class="form-control" id="activoNombre" name="activoNombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="activoModelo">Modelo:</label>
+                        <input type="text" class="form-control" id="activoModelo" name="activoModelo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="activoNumeroSerie">Número de Serie:</label>
+                        <input type="text" class="form-control" id="activoNumeroSerie" name="activoNumeroSerie" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="activoDescripcion">Descripción:</label>
+                        <textarea class="form-control" id="activoDescripcion" name="activoDescripcion" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="activoCategoria">Categoría:</label>
+                        <input type="text" class="form-control" id="activoCategoria" name="activoCategoria" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="activoHabitacion">Habitación:</label>
+                        <input type="text" class="form-control" id="activoHabitacion" name="activoHabitacion" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/CoromotoAccess/Activos.js"></script>
