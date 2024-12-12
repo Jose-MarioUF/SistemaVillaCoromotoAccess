@@ -212,24 +212,24 @@ nav {
 
 
 .text1 {
-    color: #663E3E;
-    display: block;
-    font-family: 'Lora',cursive;
-    font-size: 36px;
-    letter-spacing: -1px;
-    line-height: 44px;
-	font-weight:bold;
-    margin-bottom: 0;
-    text-transform: uppercase;
+	color: #101820;
+	display: block;
+	font-family: 'Lora',cursive;
+	font-size: 36px;
+	letter-spacing: -1px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 .text2 {
-    color: #F44C31;
-    display: block;
-    font-family: 'Courgette',cursive;
-    font-size: 35px;
-    line-height: 42px;
-    margin-top: -10px;
+	color: #b2b4b2;
+	display: block;
+	font-family: 'Courgette',cursive;
+	font-size: 35px;
+	line-height: 42px;
+	margin-top: -10px;
 }
 
 .page1-box1 {
@@ -352,13 +352,13 @@ nav {
 
 
 .text3 {
-    color: #F44C31;
-    display: block;
-    font-family: 'Courgette',cursive;
-    font-size: 65px;
-    letter-spacing: -3px;
-    line-height: 78px;
-    margin-bottom: 9px;
+	color: #101820;
+	display: block;
+	font-family: 'Courgette',cursive;
+	font-size: 65px;
+	letter-spacing: -3px;
+	line-height: 78px;
+	margin-bottom: 9px;
 }
 .text4 {
 	display:block;
