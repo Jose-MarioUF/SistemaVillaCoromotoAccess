@@ -121,11 +121,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ActivosController.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\HabitacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LimpiezaController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ParametrosController.cs" />
     <Compile Include="Controllers\ReservaController.cs" />
+    <Compile Include="Controllers\SeguridadController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -310,6 +314,12 @@
     <Content Include="Views\Activos\ModificarActivo.cshtml" />
     <Content Include="Views\Empleados\GestionEmpleados.cshtml" />
     <Content Include="Views\Empleados\ModificarEmpleado.cshtml" />
+    <Content Include="Views\Parametros\HojaDeConfiguracion.cshtml" />
+    <Content Include="Views\Limpieza\ControlDeLimpieza.cshtml" />
+    <Content Include="Views\Clientes\GestionClientes.cshtml" />
+    <Content Include="Views\Clientes\ModificarCliente.cshtml" />
+    <Content Include="Views\Clientes\HistorialCliente.cshtml" />
+    <Content Include="Views\Seguridad\GestionRoles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

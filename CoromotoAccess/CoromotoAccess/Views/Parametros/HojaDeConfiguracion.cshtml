@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "HojaDeConfiguracion";
+}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Hoja de Configuración</h2>
+
+    <!-- Métodos de Pago -->
+    <div class="mb-5">
+        <h3>Métodos de Pago</h3>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="nuevoMetodoPago" name="nuevoMetodoPago" placeholder="Nuevo Método de Pago" required>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button">Agregar</button>
+            </div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tarjeta
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Efectivo
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <!-- Agregar más métodos de pago según sea necesario -->
+        </ul>
+    </div>
+
+    <!-- Tipos de Habitación -->
+    <div class="mb-5">
+        <h3>Tipos de Habitación</h3>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="nuevoTipoHabitacion" name="nuevoTipoHabitacion" placeholder="Nuevo Tipo de Habitación" required>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button">Agregar</button>
+            </div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Estándar
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Lujo
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <!-- Agregar más tipos de habitación según sea necesario -->
+        </ul>
+    </div>
+
+    <!-- Tipos de Moneda -->
+    <div class="mb-5">
+        <h3>Tipos de Moneda</h3>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="nuevoTipoMoneda" name="nuevoTipoMoneda" placeholder="Nuevo Tipo de Moneda" required>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button">Agregar</button>
+            </div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Dólares
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Euros
+                <button class="btn btn-danger btn-sm" type="button">Eliminar</button>
+            </li>
+            <!-- Agregar más tipos de moneda según sea necesario -->
+        </ul>
+    </div>
+
+    <!-- Cambio de Idioma -->
+    <div class="mb-5">
+        <h3>Cambio de Idioma</h3>
+        <div class="input-group mb-3">
+            <select class="form-control" id="idioma" name="idioma" required>
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+                <option value="pt">Portugués</option>
+                <!-- Agregar más idiomas según sea necesario -->
+            </select>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button">Cambiar</button>
+            </div>
+        </div>
+    </div>
+</div>
