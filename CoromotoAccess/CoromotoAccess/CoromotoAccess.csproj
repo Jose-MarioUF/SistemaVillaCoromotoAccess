@@ -200,6 +200,7 @@
     <Content Include="Styles\imagenes\button-m.png" />
     <Content Include="Styles\imagenes\button-r.png" />
     <Content Include="Styles\imagenes\camera-loader.gif" />
+    <Content Include="Styles\imagenes\Cocina.jpg" />
     <Content Include="Styles\imagenes\contbg.gif" />
     <Content Include="Styles\imagenes\contbg2.gif" />
     <Content Include="Styles\imagenes\content-bg.gif" />
@@ -239,6 +240,7 @@
     <Content Include="Styles\imagenes\next1.gif" />
     <Content Include="Styles\imagenes\page5-img2.jpg" />
     <Content Include="Styles\imagenes\paisaje.jpg" />
+    <Content Include="Styles\imagenes\Pasillo.jpg" />
     <Content Include="Styles\imagenes\prev.png" />
     <Content Include="Styles\imagenes\prev1.gif" />
     <Content Include="Styles\imagenes\search-marker.png" />
@@ -252,6 +254,7 @@
     <Content Include="Styles\imagenes\soc-link3.png" />
     <Content Include="Styles\imagenes\spaguetti.png" />
     <Content Include="Styles\imagenes\ui.totop.png" />
+    <Content Include="Styles\imagenes\VillaValiita.jpg" />
     <Content Include="Styles\js\camera.js" />
     <Content Include="Styles\js\forms.js" />
     <Content Include="Styles\js\html5shiv.js" />

@@ -16,7 +16,7 @@
                         <img src="~/Styles/imagenes/habitacionVilla.jpg" alt="Habitacion Villa" style="width: 100%; height: auto;">
                     </figure>
                     <p>Relájate en nuestras cómodas habitaciones, diseñadas para ofrecerte el máximo confort y tranquilidad. Cada detalle ha sido cuidadosamente pensado para que disfrutes de una estancia placentera y acogedora.</p>
-                    <a class="button1" href="#">más</a>
+                    <a class="button1" href="@Url.Action("CatalogoHabitaciones","Habitacion") ">más</a>
                 </div>
                 <i></i>
             </div>
@@ -33,7 +33,7 @@
                         <img src="~/Styles/imagenes/AfuerasVilla.jpg" alt="Afueras de la Villa" style="width: 100%; height: auto;">
                     </figure>
                     <p>Lujo y naturaleza en un solo lugar: "Disfruta del equilibrio perfecto entre lujo y naturaleza. Nuestras habitaciones están diseñadas para ofrecerte una experiencia de hospedaje inolvidable, con vistas espectaculares y una ubicación estratégica que te permitirá explorar los rincones más hermosos de la región. Ideal para quienes buscan desconectar y sumergirse en un entorno natural."</p>
-                    <a class="button1" href="#">más</a>
+                    <a class="button1" href="@Url.Action("CatalogoHabitaciones","Habitacion") ">más</a>
                 </div>
                 <i></i>
             </div>
@@ -50,7 +50,7 @@
                         <img src="~/Styles/imagenes/paisaje.jpg" alt="Acceso único" style="width: 100%; height: auto;">
                     </figure>
                     <p>Despierta con vistas impresionantes: "Imagina despertar cada mañana con una vista panorámica que te deja sin aliento. Nuestro Airbnb te ofrece la escapada perfecta con habitaciones acogedoras que combinan confort y estilo, todo en una ubicación inmejorable. Rodeado de naturaleza, disfruta de la tranquilidad y la belleza del paisaje desde la comodidad de tu cama."</p>
-                    <a class="button1" href="#">más</a>
+                    <a class="button1" href="@Url.Action("CatalogoHabitaciones","Habitacion") ">más</a>
                 </div>
                 <i></i>
             </div>
@@ -86,36 +86,33 @@
             <!--Columna top productos lado derecho-->
 
             <article class="grid_8 prefix_2 maxheight1 border2">
-                <h2 class="p10">Mejores <br />Productos</h2>
+                <h2 class="p10">Otras <br />Caracteristicas</h2>
                 <div class="page1-box4">
-                    <figure class="page1-img2 img-bot"><img src="~/Styles/imagenes/page1-img4.jpg" alt="Producto 1"></figure>
-                    <div class="extra-wrap">
-                        <a class="link2" href="#">Producto 1</a>
-                        <p class="p11">Descripción del producto 1</p>
-                        <span class="text5">$14.99</span>
-                    </div>
+                    <figure class="page1-img2 img-bot">
+                        <img src="~/Styles/imagenes/Cocina.jpg" alt="Cocina" style="width: 100%; height: auto;">
+                    </figure>
                     <div class="clear"></div>
                 </div>
+
                 <div class="page1-box4">
-                    <figure class="page1-img2 img-bot"><img src="~/Styles/imagenes/page1-img5.jpg" alt="Producto 2"></figure>
-                    <div class="extra-wrap">
-                        <a class="link2" href="#">Producto 2 </a>
-                        <p class="p11">Descripción del producto 2</p>
-                        <span class="text5">$15.75</span>
-                    </div>
+                    <figure class="page1-img2 img-bot">
+                        <img src="~/Styles/imagenes/VillaValiita.jpg" alt="Villa Vallita" style="width: 100%; height: auto;">
+                    </figure>
                     <div class="clear"></div>
                 </div>
+
                 <div class="page1-box4 p12">
-                    <figure class="page1-img2 img-bot"><img src="~/Styles/imagenes/page1-img6.jpg" alt="Producto 3"></figure>
-                    <div class="extra-wrap">
-                        <a class="link2" href="#">Producto 3</a>
-                        <p class="p11">Descripción del producto 3</p>
-                        <span class="text5">$12.00</span>
-                    </div>
+                    <figure class="page1-img2 img-bot">
+                        <img src="~/Styles/imagenes/Pasillo.jpg" alt="Pasillo habitacion" style="width: 100%; height: auto;">
+                    </figure>
                     <div class="clear"></div>
                 </div>
-                <a class="button1 p28 p28" href="@Url.Action("Productos","Productos") ">Ver más</a>
+
+                <a class="button1 p28 p28" href="@Url.Action("CatalogoHabitaciones","Habitacion") ">Ver más</a>
             </article>
+
+
+
             <div class="clear"></div>
         </div>
     </div>
