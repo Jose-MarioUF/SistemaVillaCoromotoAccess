@@ -23,9 +23,19 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
-
+        [HttpGet]
+        public ActionResult ActualizarPerfil()
+        {
+            return View();
+        }
+        [HttpGet]
+        public ActionResult MiPerfil()
+        {
+            return View();
+        }
     }
 }
+
 
 
 
