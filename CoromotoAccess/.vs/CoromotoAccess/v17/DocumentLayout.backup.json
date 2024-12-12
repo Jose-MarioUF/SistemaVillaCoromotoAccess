@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\habitacion\\datoshabitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\habitacion\\datoshabitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\habitacion\\catalogohabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\habitacion\\catalogohabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|d:\\proyectosvisualstudio2022\\coromotoaccess\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,66 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:11:32.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:11:27.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CatalogoHabitaciones.cshtml",
-              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\CatalogoHabitaciones.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Habitacion\\CatalogoHabitaciones.cshtml",
-              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\CatalogoHabitaciones.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Habitacion\\CatalogoHabitaciones.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:08:04.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T06:51:44.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T05:41:57.968Z",
+              "WhenOpened": "2024-12-12T08:39:21.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatosHabitacion.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:30:27.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:26:12.823Z",
               "EditorCaption": ""
             }
           ]
