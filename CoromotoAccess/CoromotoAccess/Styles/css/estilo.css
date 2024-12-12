@@ -300,39 +300,21 @@ nav {
     padding: 0 25px 20px;
 }
 
-.button1:after {
-    background: url("../imagenes/button-r.png") no-repeat scroll 0 0 transparent;
-    content: " ";
-    display: block;
-    height: 43px;
-    position: absolute;
-    right: -8px;
-    top: 0;
-    width: 8px;
-}
-.button1:before {
-    background: url("../imagenes/button-l.png") no-repeat scroll 0 0 transparent;
-    content: " ";
-    display: block;
-    height: 43px;
-    left: -7px;
-    position: absolute;
-    top: 0;
-    width: 7px;
-}
 .button1 {
-    background: url("../imagenes/button-m.png") repeat-x scroll 0 0 transparent;
-    color: #FFFFFF;
-    display: inline-block;
-    font-family: 'Lora',cursive;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 20px;
-    min-width: 74px;
-    padding: 9px 12px 13px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
+	background-color: #101820;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'Lora', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	min-width: 74px;
+	padding: 9px 12px 13px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
 }
 
 .p28 {
@@ -340,15 +322,10 @@ nav {
 }
 
 .button1:hover {
-	background-position:0 -55px;
-	text-decoration:none;
+	background-color: #000000;
+	text-decoration: none;
 }
 
-.button1:hover:after,
-.button1:hover:before
- {
-	background-position:0 -55px;
-}
 
 
 .text3 {
@@ -361,12 +338,12 @@ nav {
 	margin-bottom: 9px;
 }
 .text4 {
-	display:block;
+	display: block;
 	font-family: 'Lora', cursive;
-	font-size:23px;
-	color:#663e3e;
-	margin-bottom:24px;
-	line-height:25px;
+	font-size: 23px;
+	color: #b2b4b2;
+	margin-bottom: 24px;
+	line-height: 25px;
 }
 
 .p8 {
@@ -374,14 +351,14 @@ nav {
 }
 
 .text5 {
-	display:block;
-	letter-spacing:-1px;
-	font-weight:bold;
-	color:#f44c31;
-	font-size:23px;
-	line-height:28px;
+	display: block;
+	letter-spacing: -1px;
+	font-weight: bold;
+	color: #2952ff;
+	font-size: 23px;
+	line-height: 28px;
 	font-family: 'Lora', cursive;
-	margin-bottom:8px;
+	margin-bottom: 8px;
 }
 
 .p9 {
@@ -421,10 +398,10 @@ nav {
 #next_slide:hover {
 	background-position:0 bottom;
 }
-	
+
 .link1 {
-	color:#f44c31;
-	font-weight:bold;
+	color: #2952ff;
+	font-weight: bold;
 	transition: all 0.4s ease 0s;
 }
 
@@ -462,10 +439,10 @@ nav {
 }
 
 .link2 {
-	color:#ffaf31;
+	color: #b2b4b2;
 	font-family: 'Courgette', cursive;
-	font-size:20px;
-	line-height:22px;
+	font-size: 20px;
+	line-height: 22px;
 	transition: all 0.4s ease 0s;
 }
 
@@ -1277,6 +1254,7 @@ min-width:300px;
 	width: 100%;
 	align-items: center;
 }
+
 
 
 

@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T06:51:44.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "estilo.css",
               "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Styles\\css\\estilo.css",
               "RelativeDocumentMoniker": "CoromotoAccess\\Styles\\css\\estilo.css",
               "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Styles\\css\\estilo.css",
               "RelativeToolTip": "CoromotoAccess\\Styles\\css\\estilo.css",
-              "ViewState": "AgIAAE4BAAAAAAAAAAAwwGIBAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAMwJgBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T06:49:11.994Z",
+              "WhenOpened": "2024-12-12T07:41:35.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\CoromotoAccess\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T06:51:44.575Z",
               "EditorCaption": ""
             },
             {
