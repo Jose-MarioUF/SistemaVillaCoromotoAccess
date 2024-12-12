@@ -123,6 +123,7 @@
     <Compile Include="Controllers\ActivosController.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\EmpleadosController.cs" />
+    <Compile Include="Controllers\FacturasController.cs" />
     <Compile Include="Controllers\HabitacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LimpiezaController.cs" />
@@ -309,6 +310,7 @@
     <Content Include="Views\Login\ActualizarPerfil.cshtml" />
     <Content Include="Views\RecursosHumanos\GestionarVacaciones.cshtml" />
     <Content Include="Views\Login\MiPerfil.cshtml" />
+    <Content Include="Views\Facturas\Historico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

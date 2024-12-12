@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\controllers\\activoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\controllers\\activoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\facturas\\historico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\facturas\\historico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\empleados\\gestionempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\empleados\\gestionempleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\controllers\\limpiezacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\controllers\\limpiezacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\activos\\administraractivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\activos\\administraractivos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\habitacion\\administrarhabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\habitacion\\administrarhabitaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\seguridad\\gestionroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\seguridad\\gestionroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|solutionrelative:coromotoaccess\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18AB0C10-0927-4005-9ACC-68BF167557D0}|CoromotoAccess\\CoromotoAccess.csproj|c:\\users\\rodney\\documents\\github\\sistemavillacoromotoaccess\\coromotoaccess\\coromotoaccess\\views\\habitacion\\datoshabitacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,15 +58,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "CoromotoAccess\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:47:39.654Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Historico.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Facturas\\Historico.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Facturas\\Historico.cshtml",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Facturas\\Historico.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Facturas\\Historico.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T09:40:21.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LimpiezaController.cs",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\LimpiezaController.cs",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Controllers\\LimpiezaController.cs",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\LimpiezaController.cs",
+              "RelativeToolTip": "CoromotoAccess\\Controllers\\LimpiezaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:23:20.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivosController.cs",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\ActivosController.cs",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Controllers\\ActivosController.cs",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Controllers\\ActivosController.cs",
+              "RelativeToolTip": "CoromotoAccess\\Controllers\\ActivosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:23:18.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdministrarActivos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Activos\\AdministrarActivos.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Activos\\AdministrarActivos.cshtml",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Activos\\AdministrarActivos.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Activos\\AdministrarActivos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T09:20:13.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestionEmpleados.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Empleados\\GestionEmpleados.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Empleados\\GestionEmpleados.cshtml",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Empleados\\GestionEmpleados.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Empleados\\GestionEmpleados.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T09:19:30.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T08:39:21.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AdministrarHabitaciones.cshtml",
               "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\AdministrarHabitaciones.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Habitacion\\AdministrarHabitaciones.cshtml",
@@ -55,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ControlDeLimpieza.cshtml",
               "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Limpieza\\ControlDeLimpieza.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Limpieza\\ControlDeLimpieza.cshtml",
@@ -68,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "GestionRoles.cshtml",
               "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Seguridad\\GestionRoles.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Seguridad\\GestionRoles.cshtml",
@@ -81,20 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CoromotoAccess\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T08:39:21.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "DatosHabitacion.cshtml",
               "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Habitacion\\DatosHabitacion.cshtml",
@@ -107,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Rodney\\Documents\\GitHub\\SistemaVillaCoromotoAccess\\CoromotoAccess\\CoromotoAccess\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CoromotoAccess\\Views\\Home\\Index.cshtml",
