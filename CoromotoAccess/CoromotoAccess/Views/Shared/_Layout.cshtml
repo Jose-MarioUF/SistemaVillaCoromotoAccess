@@ -48,12 +48,22 @@
 
                             <li><a href="@Url.Action("About","Home")">Nosotros</a></li>
                             <li><a href="@Url.Action("Contact","Home")">Contactenos</a></li>
-                            <li><a href="@Url.Action("Canasta", "Carrito")">Carrito</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Procesos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                                    <li><a class="dropdown-item" href="@Url.Action("AdministrarActivos", "Activos")"> Administrar  <br /> Activos</a></li>
+                                    
+                                    <li><a class="dropdown-item" href="@Url.Action("GestionEmpleados", "Empleados")"> Gestión de  <br /> Empleados</a></li>
+                                    
+                                </ul>
+                            </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="guestDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Mi Perfil</a>
                                 <ul class="dropdown-menu" aria-labelledby="guestDropdown">
-                                <li><a class="dropdown-item" href="@Url.Action("InicioSesion", "Login")">Ingresar</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("InicioSesion", "Login")">Ingresar</a></li>
                                 </ul>
                             </li>
                         </ul>

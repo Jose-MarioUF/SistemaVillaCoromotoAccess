@@ -6,14 +6,14 @@ using System.Web.Mvc;
 
 namespace CoromotoAccess.Controllers
 {
-    public class ActivosController : Controller
+    public class EmpleadosController : Controller
     {
-        // GET: Activos
-        public ActionResult AdministrarActivos()
+        // GET: Empleados
+        public ActionResult GestionEmpleados()
         {
             return View();
         }
-        public ActionResult ModificarActivo()
+        public ActionResult ModificarEmpleado()
         {
             return View();
         }

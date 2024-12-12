@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ActivosController.cs" />
+    <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\HabitacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -306,6 +307,9 @@
     <Content Include="Views\Habitacion\DatosHabitacion.cshtml" />
     <Content Include="Views\Reserva\AdministrarReservas.cshtml" />
     <Content Include="Views\Activos\AdministrarActivos.cshtml" />
+    <Content Include="Views\Activos\ModificarActivo.cshtml" />
+    <Content Include="Views\Empleados\GestionEmpleados.cshtml" />
+    <Content Include="Views\Empleados\ModificarEmpleado.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
