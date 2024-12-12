@@ -1,53 +1,24 @@
-﻿
-@{
-    ViewBag.Title = "GestionarVacaciones";
-}
+﻿@{ ViewBag.Title = "GestionarVacaciones"; }
 
-<div class="container mt-5">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2>Gestión de Vacaciones</h2>
-        <button class="btn btn-outline-dark" data-toggle="modal" data-target="#crearTurnoModal">Solicitar Vacaciones</button>
-    </div>
-    <div class="modal fade" id="vacacionesModal" tabindex="-1" role="dialog" aria-labelledby="vacacionesModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="vacacionesModalLabel">Solicitar Vacaciones</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="idEmpleado">ID Empleado:</label>
-                            <input type="text" class="form-control" id="idEmpleado" name="idEmpleado" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="diasDisponibles">Días de Vacaciones Disponibles:</label>
-                            <input type="number" class="form-control" id="diasDisponibles" name="diasDisponibles" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fechaInicio">Fecha de Inicio:</label>
-                            <input type="date" class="form-control" id="fechaInicio" name="fechaInicio" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="fechaFin">Fecha de Fin:</label>
-                            <input type="date" class="form-control" id="fechaFin" name="fechaFin" required>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-primary">Solicitar Vacaciones</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Gestión de Vacaciones</h1>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Solicitar Vacaciones</h2>
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#solicitarVacacionesModal">Solicitar Vacaciones</button>
         </div>
-    </div>
 
-    <div class="table-responsive mb-5">
-        <table class="table table-bordered">
-            <thead>
+        <table class="table table-striped">
+            <thead class="table-dark">
                 <tr>
                     <th>ID Empleado</th>
                     <th>Días de Vacaciones Disponibles</th>
@@ -70,14 +41,52 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-</div>
 
-<script>
-    function aprobarVacaciones(idEmpleado) {
-        if (confirm('¿Está seguro de que desea aprobar las vacaciones para el empleado con ID: ' + idEmpleado + '?')) {
-            alert('Vacaciones aprobadas para el empleado con ID: ' + idEmpleado);
-            // Lógica para aprobar las vacaciones
+        <!-- Modal Solicitar Vacaciones -->
+        <div class="modal fade" id="solicitarVacacionesModal" tabindex="-1" aria-labelledby="solicitarVacacionesModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="solicitarVacacionesModalLabel">Solicitar Vacaciones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="idEmpleado" class="form-label">ID Empleado:</label>
+                                <input type="text" class="form-control" id="idEmpleado">
+                            </div>
+                            <div class="mb-3">
+                                <label for="diasDisponibles" class="form-label">Días de Vacaciones Disponibles:</label>
+                                <input type="number" class="form-control" id="diasDisponibles">
+                            </div>
+                            <div class="mb-3">
+                                <label for="fechaInicio" class="form-label">Fecha de Inicio:</label>
+                                <input type="date" class="form-control" id="fechaInicio">
+                            </div>
+                            <div class="mb-3">
+                                <label for="fechaFin" class="form-label">Fecha de Fin:</label>
+                                <input type="date" class="form-control" id="fechaFin">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-secondary ml-3" href="@Url.Action("GestionarVacaciones", "RecursosHumanos")">Cerrar</a>
+                        <a class="btn btn-outline-dark ml-3" href="@Url.Action("GestionarVacaciones", "RecursosHumanos")">Solicitar Vacaciones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function aprobarVacaciones(idEmpleado) {
+            if (confirm('¿Está seguro de que desea aprobar las vacaciones para el empleado con ID: ' + idEmpleado + '?')) {
+                alert('Vacaciones aprobadas para el empleado con ID: ' + idEmpleado);
+                // Lógica para aprobar las vacaciones
+            }
         }
-    }
-</script>
+    </script>
+</body>
+</html>
