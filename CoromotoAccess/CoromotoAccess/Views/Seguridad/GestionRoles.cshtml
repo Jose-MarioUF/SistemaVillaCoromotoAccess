@@ -58,24 +58,19 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
                     <div class="form-group">
-                        <label for="rol">Rol:</label>
-                        <select class="form-control" id="rol" name="rol" required>
-                            <option value="Cliente">Cliente</option>
-                            <option value="Limpieza">Limpieza</option>
-                            <option value="Admin">Admin</option>
-                        </select>
+                        <label class="form-label">Rol:</label>
+                            <input type="text" class="form-control" required />
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="submit" class="btn btn-primary">Agregar Rol</button>
-                    </div>
-                </form>
+            <div class="modal-footer">
+                <a class="btn btn-secondary fw-bold" href="@Url.Action("GestionRoles", "Seguridad")">Cerrar</a>
+                <a class="btn btn-primary fw-bold" href="@Url.Action("GestionRoles", "Seguridad")">Guardar</a>
+            </div>
             </div>
         </div>
     </div>
-</div>
+
 
 <script>
     function eliminarRol(idRol) {
