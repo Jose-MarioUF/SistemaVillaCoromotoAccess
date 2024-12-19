@@ -17,6 +17,15 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
-        
+        public ActionResult AutoGestion()
+        {
+            return View();
+        }
+        public ActionResult ConsultarBoletasPago()
+        {
+            return View();
+        }
+
     }
+    
 }

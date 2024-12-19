@@ -17,5 +17,14 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
+        public ActionResult EmpleadoTurno()
+        {
+            return View();
+        }
+        public ActionResult EmpleadosMain()
+        {
+            return View();
+        }
     }
 }
+    

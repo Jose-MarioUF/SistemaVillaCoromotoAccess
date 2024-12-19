@@ -11,6 +11,36 @@
                     <button class="btn btn-outline-dark ml-3" data-bs-toggle="modal" data-bs-target="#agregarHabitacionModal">Agregar Habitaciones</button>
                 </div>
                 <br />
+                <!-- Filtros -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <select class="form-control" id="buscarCategoria">
+                                <option value="" disabled selected>Filtrar por villa</option>
+                                <option value="Villa Coromoto">Villa Coromoto</option>
+                                <option value="Villa Vallita">Villa Vallita</option>
+                            </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" onclick="filtrarCategoria()">Filtrar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <select class="form-control" id="buscarHabitacion">
+                                <option value="" disabled selected>Filtrar por habitación</option>
+                                <option value="Habitación Deluxe">Habitación Deluxe</option>
+                                <option value="Habitación Familiar">Habitación Familiar</option>
+                                <option value="Habitación Económica">Habitación Económica</option>
+                            </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" onclick="filtrarHabitacion()">Filtrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
                 <h3 class="p17 text-black font-weight-bold">Villa Coromoto</h3>
                 <table class="table table-bordered" style="border: 2px solid #000;">
                     <thead>
@@ -23,7 +53,7 @@
                             <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="tablaVillaCoromoto">
                         <tr>
                             <td>Habitación Deluxe</td>
                             <td>Cómoda habitación con vistas al jardín y cama king size.</td>
@@ -72,7 +102,7 @@
                             <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="tablaVillaVallita">
                         <tr>
                             <td>Habitación Deluxe</td>
                             <td>Cómoda habitación con vistas al jardín y cama king size.</td>

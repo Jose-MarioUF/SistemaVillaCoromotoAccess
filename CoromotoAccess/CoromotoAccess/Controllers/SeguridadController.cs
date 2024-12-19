@@ -13,5 +13,17 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
+        public ActionResult GestionPermisos()
+        {
+            return View();
+        }
+        public ActionResult Seguridad()
+        {
+            return View();
+        }
+        public ActionResult Configuracion()
+        {
+            return View();
+        }
     }
 }

@@ -13,5 +13,21 @@ namespace CoromotoAccess.Controllers
         {
             return View();
         }
+        public ActionResult ModificarIdioma()
+        {
+            return View();
+        }
+        public ActionResult ModificarMetodoPago()
+        {
+            return View();
+        }
+        public ActionResult ModificarTipoHabitacion()
+        {
+            return View();
+        }
+        public ActionResult ModificarMoneda()
+        {
+            return View();
+        }
     }
 }
